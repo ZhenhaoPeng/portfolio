@@ -9,7 +9,6 @@ Dies ist ein statisches Website-Projekt zur Darstellung meiner persönlichen Arb
 - Persönliche Informationen anzeigen
 - Projekte und Beispiele präsentieren
 - Kontaktformular
-- Responsives Design, das auf allen Geräten funktioniert
 
 ## Technologie-Stack
 
