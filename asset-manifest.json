@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/ZhenhaoPeng/portfolio.git/static/css/main.bfba92f3.css",
+    "main.js": "/ZhenhaoPeng/portfolio.git/static/js/main.8b118fa4.js",
+    "static/js/787.fb771931.chunk.js": "/ZhenhaoPeng/portfolio.git/static/js/787.fb771931.chunk.js",
+    "static/media/header.svg": "/ZhenhaoPeng/portfolio.git/static/media/header.f98d09f3d3a5780e302d608ebbc78254.svg",
+    "static/media/color-sharp.png": "/ZhenhaoPeng/portfolio.git/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/project-img4.png": "/ZhenhaoPeng/portfolio.git/static/media/project-img4.914665f6cade817efab1.png",
+    "static/media/color-sharp2.png": "/ZhenhaoPeng/portfolio.git/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/project-img2.png": "/ZhenhaoPeng/portfolio.git/static/media/project-img2.879a5c7e06616c3d0690.png",
+    "static/media/project-img5.png": "/ZhenhaoPeng/portfolio.git/static/media/project-img5.a1c7704e49cbb34fecd9.png",
+    "static/media/project-img1.png": "/ZhenhaoPeng/portfolio.git/static/media/project-img1.b75a41878f705d8e1394.png",
+    "static/media/banner-bg.png": "/ZhenhaoPeng/portfolio.git/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/CentraNo2-Bold.ttf": "/ZhenhaoPeng/portfolio.git/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/ZhenhaoPeng/portfolio.git/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/ZhenhaoPeng/portfolio.git/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/footer-bg.png": "/ZhenhaoPeng/portfolio.git/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/project-img3.png": "/ZhenhaoPeng/portfolio.git/static/media/project-img3.e7e3505280651140f655.png",
+    "static/media/logo.svg": "/ZhenhaoPeng/portfolio.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/contact-img.svg": "/ZhenhaoPeng/portfolio.git/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
+    "static/media/revicons.eot": "/ZhenhaoPeng/portfolio.git/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/ZhenhaoPeng/portfolio.git/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/ZhenhaoPeng/portfolio.git/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/meter2.svg": "/ZhenhaoPeng/portfolio.git/static/media/meter2.1b8f416eccd1ee162218b8528a1c5cdc.svg",
+    "static/media/meter1.svg": "/ZhenhaoPeng/portfolio.git/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
+    "static/media/meter3.svg": "/ZhenhaoPeng/portfolio.git/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
+    "static/media/nav-icon2.svg": "/ZhenhaoPeng/portfolio.git/static/media/nav-icon2.2dde832e2d710ff3299f928f7826e245.svg",
+    "index.html": "/ZhenhaoPeng/portfolio.git/index.html",
+    "static/media/nav-icon1.svg": "/ZhenhaoPeng/portfolio.git/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/arrow2.svg": "/ZhenhaoPeng/portfolio.git/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
+    "static/media/arrow1.svg": "/ZhenhaoPeng/portfolio.git/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
+    "main.bfba92f3.css.map": "/ZhenhaoPeng/portfolio.git/static/css/main.bfba92f3.css.map",
+    "main.8b118fa4.js.map": "/ZhenhaoPeng/portfolio.git/static/js/main.8b118fa4.js.map",
+    "787.fb771931.chunk.js.map": "/ZhenhaoPeng/portfolio.git/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bfba92f3.css",
+    "static/js/main.8b118fa4.js"
+  ]
+}
