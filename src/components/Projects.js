@@ -15,19 +15,19 @@ export const Projects = () => {
       title: "Portfolio Website",
       description: "Personal Website with GitHub and Live Link",
       imgUrl: projImg5,
-      liveLink: "https://yourwebsite.com",
-      githubLink: "https://github.com/yourrepo",
+      liveLink: "https://zhenhaopeng.github.io/portfolio/",
+      githubLink: "https://github.com/ZhenhaoPeng/portfolio",
     },
     {
-      title: "Pizza-Order-App",
+      title: "Online Pizza Ordering System",
       description:
         "React Router data loading, Redux, Redux Toolkit, thunks, Tailwind CSS",
       imgUrl: projImg2,
-      liveLink: "https://yourwebsite.com",
-      githubLink: "https://github.com/yourrepo",
+      liveLink: "https://pizza-order-fyp0qmjl6-zhenhaos-projects.vercel.app/",
+      githubLink: "https://github.com/ZhenhaoPeng/PizzaOrder",
     },
     {
-      title: "hotel-order- App",
+      title: "Hotel Booking System",
       description:
         "Next.js ,app router, React Server Components, server actions, authentication with NextAuth",
       imgUrl: projImg4,
@@ -39,10 +39,10 @@ export const Projects = () => {
       description:
         "Internal project built with C#, .NET Core, MS SQL(Demo Video Only)",
       imgUrl: projImg3,
-      videoLink: "/videos/internal-crm-demo.mp4",
+      videoLink: `${process.env.PUBLIC_URL}/videos/internal-crm-demo.mp4`,
     },
     {
-      title: "PwC Switzerland Dashboard",
+      title: "PwC Switzerland Dashboard Power BI",
       description: "Virtual Experience Program in Business Analytics",
       imgUrl: projImg1,
       powerBILink:
@@ -102,7 +102,9 @@ export const Projects = () => {
                           {projects
                             .filter(
                               (project) =>
-                                project.githubLink || project.liveLink
+                                project.githubLink ||
+                                project.liveLink ||
+                                project.videoLink
                             )
                             .map((project, index) => {
                               return <ProjectCard key={index} {...project} />;

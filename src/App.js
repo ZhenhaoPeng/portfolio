@@ -7,9 +7,11 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import { HashRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
+    <Router>
     <div className="App">
       <NavBar />
       <Banner />
@@ -18,6 +20,7 @@ function App() {
       <Contact />
       <Footer />
     </div>
+    </Router>
   );
 }
 

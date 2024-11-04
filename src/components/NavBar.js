@@ -4,7 +4,7 @@ import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import { HashLink } from "react-router-hash-link";
-import { BrowserRouter as Router } from "react-router-dom";
+
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -29,7 +29,7 @@ export const NavBar = () => {
   };
 
   return (
-    <Router>
+    
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
@@ -88,6 +88,6 @@ export const NavBar = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </Router>
+   
   );
 };
