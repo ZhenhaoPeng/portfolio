@@ -26,14 +26,14 @@ export const Projects = () => {
       liveLink: "https://pizza-order-fyp0qmjl6-zhenhaos-projects.vercel.app/",
       githubLink: "https://github.com/ZhenhaoPeng/PizzaOrder",
     },
-    {
-      title: "Hotel Booking System",
-      description:
-        "Next.js ,app router, React Server Components, server actions, authentication with NextAuth",
-      imgUrl: projImg4,
-      liveLink: "https://ecommercewebsite.com",
-      githubLink: "https://github.com/ecommercerepo",
-    },
+    // {
+    //   title: "Hotel Booking System",
+    //   description:
+    //     "Next.js ,app router, React Server Components, server actions, authentication with NextAuth",
+    //   imgUrl: projImg4,
+    //   liveLink: "https://ecommercewebsite.com",
+    //   githubLink: "https://github.com/ecommercerepo",
+    // },
     {
       title: "TRUMPF Event Management System",
       description:
