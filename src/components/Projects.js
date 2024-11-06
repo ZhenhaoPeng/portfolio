@@ -42,9 +42,9 @@ export const Projects = () => {
       videoLink: `${process.env.PUBLIC_URL}/videos/internal-crm-demo.mp4`,
     },
     {
-      title: "PwC Switzerland Dashboard Power BI",
+      title: "PwC Switzerland PowerBI Dashboard",
       description:
-        "Virtual Experience Program in Business Analytics (Public data, contains no sensitive information).",
+        "Business Analytics Virtual Experience (Public data, no sensitive info).",
       imgUrl: projImg1,
       powerBILink:
         "https://app.powerbi.com/view?r=eyJrIjoiMDc0MDczZDYtZGRhNS00OGEzLTkyYjctMTk1YjcxNzEwYjc2IiwidCI6IjAwNjljNzMxLTY5YTctNDBjNC05NjA2LWU1MTIxZWQ5YWM4MSIsImMiOjJ9",
