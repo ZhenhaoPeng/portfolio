@@ -43,7 +43,8 @@ export const Projects = () => {
     },
     {
       title: "PwC Switzerland Dashboard Power BI",
-      description: "Virtual Experience Program in Business Analytics",
+      description:
+        "Virtual Experience Program in Business Analytics (Public data, contains no sensitive information).",
       imgUrl: projImg1,
       powerBILink:
         "https://app.powerbi.com/view?r=eyJrIjoiMDc0MDczZDYtZGRhNS00OGEzLTkyYjctMTk1YjcxNzEwYjc2IiwidCI6IjAwNjljNzMxLTY5YTctNDBjNC05NjA2LWU1MTIxZWQ5YWM4MSIsImMiOjJ9",
