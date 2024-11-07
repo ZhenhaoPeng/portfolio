@@ -116,7 +116,7 @@ export const Projects = () => {
                         <Row>
                           {projects
                             .filter((project) =>
-                              project.title.includes("Power BI")
+                              project.title.includes("PowerBI")
                             )
                             .map((project, index) => {
                               return <ProjectCard key={index} {...project} />;
