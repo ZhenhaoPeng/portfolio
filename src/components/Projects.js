@@ -5,27 +5,13 @@ import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img5.png";
+import projImg6 from "../assets/img/project-img6.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
   const projects = [
-    {
-      title: "Portfolio Website",
-      description: "Personal Website with GitHub and Live Link",
-      imgUrl: projImg5,
-      liveLink: "https://zhenhaopeng.github.io/portfolio/",
-      githubLink: "https://github.com/ZhenhaoPeng/portfolio",
-    },
-    {
-      title: "Online Pizza Ordering System",
-      description:
-        "React Router data loading, Redux, Redux Toolkit, thunks, Tailwind CSS",
-      imgUrl: projImg2,
-      liveLink: "https://pizza-order-fyp0qmjl6-zhenhaos-projects.vercel.app/",
-      githubLink: "https://github.com/ZhenhaoPeng/PizzaOrder",
-    },
     // {
     //   title: "Hotel Booking System",
     //   description:
@@ -42,12 +28,34 @@ export const Projects = () => {
       videoLink: `${process.env.PUBLIC_URL}/videos/internal-crm-demo.mp4`,
     },
     {
+      title: "Desktop Student Management",
+      description:
+        "A desktop application built with C# and Windows Forms to manage student data, including grades, attendance, and personal information.",
+      imgUrl: projImg6, // Use a new image URL for this project
+      videoLink: `${process.env.PUBLIC_URL}/videos/student-management-demo.mp4`, // Add a demo video link if available
+    },
+    {
       title: "PwC Switzerland PowerBI Dashboard",
       description:
         "Business Analytics Virtual Experience (Public data, no sensitive info).",
       imgUrl: projImg1,
       powerBILink:
         "https://app.powerbi.com/view?r=eyJrIjoiMDc0MDczZDYtZGRhNS00OGEzLTkyYjctMTk1YjcxNzEwYjc2IiwidCI6IjAwNjljNzMxLTY5YTctNDBjNC05NjA2LWU1MTIxZWQ5YWM4MSIsImMiOjJ9",
+    },
+    {
+      title: "Portfolio Website",
+      description: "Personal Website with GitHub and Live Link",
+      imgUrl: projImg5,
+      liveLink: "https://zhenhaopeng.github.io/portfolio/",
+      githubLink: "https://github.com/ZhenhaoPeng/portfolio",
+    },
+    {
+      title: "Online Pizza Ordering System",
+      description:
+        "React Router data loading, Redux, Redux Toolkit, thunks, Tailwind CSS",
+      imgUrl: projImg2,
+      liveLink: "https://pizza-order-fyp0qmjl6-zhenhaos-projects.vercel.app/",
+      githubLink: "https://github.com/ZhenhaoPeng/PizzaOrder",
     },
   ];
 
@@ -76,13 +84,18 @@ export const Projects = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">All Projects</Nav.Link>
+                        <Nav.Link eventKey="first">My Projects</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">Web Projects</Nav.Link>
+                        <Nav.Link eventKey="second">Web Development</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">Data Analytics</Nav.Link>
+                        <Nav.Link eventKey="third">
+                          Desktop Applications
+                        </Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="fourth">Data Analytics</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content
@@ -103,9 +116,8 @@ export const Projects = () => {
                           {projects
                             .filter(
                               (project) =>
-                                project.githubLink ||
-                                project.liveLink ||
-                                project.videoLink
+                                project.title.includes("Web") ||
+                                project.title.includes("System")
                             )
                             .map((project, index) => {
                               return <ProjectCard key={index} {...project} />;
@@ -113,6 +125,17 @@ export const Projects = () => {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
+                        <Row>
+                          {projects
+                            .filter((project) =>
+                              project.title.includes("Desktop")
+                            )
+                            .map((project, index) => {
+                              return <ProjectCard key={index} {...project} />;
+                            })}
+                        </Row>
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="fourth">
                         <Row>
                           {projects
                             .filter((project) =>

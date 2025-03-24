@@ -377,14 +377,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 56%;
 }
 .project .nav.nav-pills {
-  width: 72%;
-  margin: 0 auto;
-  border-radius: 50px;
+  width: 80%; /* 设置标签容器宽度 */
+  margin: 0 auto; /* 使标签容器居中 */
+  border-radius: 50px; /* 给容器圆角 */
   background-color: rgb(255 255 255 / 10%);
-  overflow: hidden;
+  overflow: hidden; /* 防止内容溢出 */
+  display: flex; /* 使用 flex 布局 */
+  justify-content: space-between; /* 标签之间平均分配空间 */
+  flex-wrap: nowrap;
 }
 .project .nav.nav-pills .nav-item {
-  width: 33.33333%;
+  flex: 1; /* 每个标签占据相同宽度 */
+  text-align: center;
 }
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
@@ -399,6 +403,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.3s ease-in-out;
   text-align: center;
   z-index: 0;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  cursor: pointer;
 }
 .project .nav.nav-pills .nav-link::before {
   content: "";
@@ -421,11 +427,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 55px 0px 0px 55px;
 }
-.nav-link#projects-tabs-tab-second {
+.nav-link#projects-tabs-tab-second,
+.nav-link#projects-tabs-tab-third {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
-.nav-link#projects-tabs-tab-third {
+.nav-link#projects-tabs-tab-fourth {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }
