@@ -3,9 +3,10 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
-import projImg4 from "../assets/img/project-img4.png";
+//import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img5.png";
 import projImg6 from "../assets/img/project-img6.png";
+import projImg7 from "../assets/img/project-img7.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -31,9 +32,18 @@ export const Projects = () => {
       title: "Desktop Student Management",
       description:
         "A desktop application built with C# and Windows Forms to manage student data, including grades, attendance, and personal information.",
-      imgUrl: projImg6, // Use a new image URL for this project
-      videoLink: `${process.env.PUBLIC_URL}/videos/student-management-demo.mp4`, // Add a demo video link if available
+      imgUrl: projImg6,
+      videoLink: `${process.env.PUBLIC_URL}/videos/student-management-demo.mp4`,
     },
+    {
+      title: "Villa Booking – Clean Architecture",
+      description:
+        "ASP.NET Core MVC project using Clean Architecture with SQL Server and Entity Framework. Features include villa management, amenities, and upcoming booking module.",
+      imgUrl: projImg7,
+      githubLink: "https://github.com/ZhenhaoPeng/WhiteLagoon",
+      videoLink: `${process.env.PUBLIC_URL}/videos/Ferien-Haus-demo.mp4`,
+    },
+
     {
       title: "PwC Switzerland PowerBI Dashboard",
       description:
@@ -117,7 +127,8 @@ export const Projects = () => {
                             .filter(
                               (project) =>
                                 project.title.includes("Web") ||
-                                project.title.includes("System")
+                                project.title.includes("System") ||
+                                project.title.includes("Villa")
                             )
                             .map((project, index) => {
                               return <ProjectCard key={index} {...project} />;
