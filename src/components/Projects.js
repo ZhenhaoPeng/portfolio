@@ -53,19 +53,19 @@ export const Projects = () => {
         "https://app.powerbi.com/view?r=eyJrIjoiMDc0MDczZDYtZGRhNS00OGEzLTkyYjctMTk1YjcxNzEwYjc2IiwidCI6IjAwNjljNzMxLTY5YTctNDBjNC05NjA2LWU1MTIxZWQ5YWM4MSIsImMiOjJ9",
     },
     {
-      title: "Portfolio Website",
-      description: "Personal Website with GitHub and Live Link",
+      title: "IoT Monitoring (WPF)",
+      description: "WPF-Desktopanwendung mit Prism, LiveCharts, MiniExcel, Material Design und SQL-Anbindung via ADO.NET.",
       imgUrl: projImg5,
-      liveLink: "https://zhenhaopeng.github.io/portfolio/",
-      githubLink: "https://github.com/ZhenhaoPeng/portfolio",
+      githubLink: "https://github.com/ZhenhaoPeng/WPF.MultiTHMonitorProject",
+      videoLink: `${process.env.PUBLIC_URL}/videos/WPF-demo.mp4`,
     },
     {
       title: "Online Pizza Ordering System",
       description:
         "React Router data loading, Redux, Redux Toolkit, thunks, Tailwind CSS",
       imgUrl: projImg2,
-      liveLink: "https://pizza-order-fyp0qmjl6-zhenhaos-projects.vercel.app/",
       githubLink: "https://github.com/ZhenhaoPeng/PizzaOrder",
+      liveLink: "https://pizza-order-fyp0qmjl6-zhenhaos-projects.vercel.app/",
     },
   ];
 
