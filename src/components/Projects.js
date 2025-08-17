@@ -29,9 +29,9 @@ export const Projects = () => {
       videoLink: `${process.env.PUBLIC_URL}/videos/internal-crm-demo.mp4`,
     },
     {
-      title: "Desktop Student Management",
+      title: "Student Management (WinForms)",
       description:
-        "A desktop application built with C# and Windows Forms to manage student data, including grades, attendance, and personal information.",
+        "A Desktop application built with C# and Windows Forms to manage student data, including grades, attendance, and personal information.",
       imgUrl: projImg6,
       videoLink: `${process.env.PUBLIC_URL}/videos/student-management-demo.mp4`,
     },
@@ -139,7 +139,8 @@ export const Projects = () => {
                         <Row>
                           {projects
                             .filter((project) =>
-                              project.title.includes("Desktop")
+                              project.title.includes("Desktop") ||
+                              project.description.includes("Desktop")
                             )
                             .map((project, index) => {
                               return <ProjectCard key={index} {...project} />;
