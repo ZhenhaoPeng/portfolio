@@ -7,7 +7,7 @@ import { HashLink } from "react-router-hash-link";
 
 
 export const NavBar = () => {
-  const [activeLink, setActiveLink] = useState("home");
+  const [activeLink, setActiveLink] = useState("projects");
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -41,24 +41,6 @@ export const NavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link
-                href="#home"
-                className={
-                  activeLink === "home" ? "active navbar-link" : "navbar-link"
-                }
-                onClick={() => onUpdateActiveLink("home")}
-              >
-                Home
-              </Nav.Link>
-              <Nav.Link
-                href="#skills"
-                className={
-                  activeLink === "skills" ? "active navbar-link" : "navbar-link"
-                }
-                onClick={() => onUpdateActiveLink("skills")}
-              >
-                Skills
-              </Nav.Link>
-              <Nav.Link
                 href="#projects"
                 className={
                   activeLink === "projects"
@@ -67,7 +49,27 @@ export const NavBar = () => {
                 }
                 onClick={() => onUpdateActiveLink("projects")}
               >
-                Projects
+                Work
+              </Nav.Link>
+              <Nav.Link
+                href="#skills"
+                className={
+                  activeLink === "skills" ? "active navbar-link" : "navbar-link"
+                }
+                onClick={() => onUpdateActiveLink("skills")}
+              >
+                Stack
+              </Nav.Link>
+              <Nav.Link
+                href="#connect"
+                className={
+                  activeLink === "connect"
+                    ? "active navbar-link"
+                    : "navbar-link"
+                }
+                onClick={() => onUpdateActiveLink("connect")}
+              >
+                Contact
               </Nav.Link>
             </Nav>
             <span className="navbar-text">
@@ -81,7 +83,7 @@ export const NavBar = () => {
               </div>
               <HashLink to="#connect">
                 <button className="vvd">
-                  <span>Let’s Connect</span>
+                  <span>Get in touch</span>
                 </button>
               </HashLink>
             </span>

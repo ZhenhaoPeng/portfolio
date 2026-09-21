@@ -1,10 +1,5 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png";
 
 import React from "react";
@@ -47,11 +42,10 @@ export const Skills = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2>Skills</h2>
+              <h2>Stack</h2>
               <p>
-                web developer skilled in creating well-designed, user-friendly
-                applications. <br></br> Frontend: React, JavaScript, Backend:
-                .NET Core, Entity Framework.
+                React Native, Next.js, .NET, WPF — the tools behind the work
+                above.
               </p>
               <Carousel
                 responsive={responsive}
@@ -104,7 +98,7 @@ export const Skills = () => {
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
+      <img className="background-image-left" src={colorSharp} alt="" />
     </section>
   );
 };

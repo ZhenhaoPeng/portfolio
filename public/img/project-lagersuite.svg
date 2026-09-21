@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" width="1280" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8EEF8"/>
+      <stop offset="1" stop-color="#F7F9FD"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#1B2A4A" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="800" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="56" y="48" width="1168" height="704" rx="16" fill="#FFFFFF" stroke="#D7DEEA"/>
+  </g>
+
+  <!-- title bar -->
+  <rect x="56" y="48" width="1168" height="40" rx="16" fill="#2B3544"/>
+  <rect x="56" y="68" width="1168" height="20" fill="#2B3544"/>
+  <circle cx="80" cy="68" r="6" fill="#FF5F57"/>
+  <circle cx="100" cy="68" r="6" fill="#FEBC2E"/>
+  <circle cx="120" cy="68" r="6" fill="#28C840"/>
+  <text x="148" y="74" fill="#E8EEF8" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">LagerSuite</text>
+
+  <!-- toolbar -->
+  <rect x="56" y="88" width="1168" height="48" fill="#F4F7FC" stroke="#E3E9F3"/>
+  <rect x="76" y="100" width="92" height="24" rx="6" fill="#2F6FED"/>
+  <text x="122" y="117" text-anchor="middle" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="12">Neu</text>
+  <rect x="178" y="100" width="110" height="24" rx="6" fill="#FFFFFF" stroke="#C9D3E4"/>
+  <text x="233" y="117" text-anchor="middle" fill="#334155" font-family="Segoe UI, Arial, sans-serif" font-size="12">Bearbeiten</text>
+  <rect x="300" y="100" width="88" height="24" rx="6" fill="#FFFFFF" stroke="#C9D3E4"/>
+  <text x="344" y="117" text-anchor="middle" fill="#334155" font-family="Segoe UI, Arial, sans-serif" font-size="12">Löschen</text>
+  <rect x="980" y="100" width="220" height="24" rx="6" fill="#FFFFFF" stroke="#C9D3E4"/>
+  <text x="996" y="117" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="12">Suche Artikel&</text>
+
+  <!-- left apps pane -->
+  <rect x="56" y="136" width="280" height="616" fill="#F8FAFF"/>
+  <text x="76" y="168" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="12" letter-spacing="1.4">APPS</text>
+
+  <rect x="76" y="188" width="240" height="72" rx="12" fill="#FFFFFF" stroke="#2F6FED" stroke-width="1.5"/>
+  <rect x="92" y="204" width="40" height="40" rx="8" fill="#2F6FED"/>
+  <text x="112" y="230" text-anchor="middle" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">A</text>
+  <text x="144" y="220" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">Artikel</text>
+  <text x="144" y="240" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="12">Bestand &amp; Stammdaten</text>
+
+  <rect x="76" y="272" width="240" height="72" rx="12" fill="#FFFFFF" stroke="#E3E9F3"/>
+  <rect x="92" y="288" width="40" height="40" rx="8" fill="#0EA5A0"/>
+  <text x="112" y="314" text-anchor="middle" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">B</text>
+  <text x="144" y="304" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">Bewegungen</text>
+  <text x="144" y="324" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="12">Ein / Aus / Umlagerung</text>
+
+  <rect x="76" y="356" width="240" height="72" rx="12" fill="#FFFFFF" stroke="#E3E9F3"/>
+  <rect x="92" y="372" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="112" y="398" text-anchor="middle" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">P</text>
+  <text x="144" y="388" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">Partner</text>
+  <text x="144" y="408" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="12">Lieferanten &amp; Kunden</text>
+
+  <rect x="76" y="440" width="240" height="72" rx="12" fill="#FFFFFF" stroke="#E3E9F3"/>
+  <rect x="92" y="456" width="40" height="40" rx="8" fill="#6366F1"/>
+  <text x="112" y="482" text-anchor="middle" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">L</text>
+  <text x="144" y="472" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">Lagerorte</text>
+  <text x="144" y="492" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="12">Regale &amp; Inventur</text>
+
+  <!-- main document -->
+  <rect x="336" y="136" width="888" height="616" fill="#FFFFFF"/>
+  <text x="360" y="176" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Artikelstamm</text>
+  <text x="360" y="200" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="13">Prism Module · EF Core · SQLite</text>
+
+  <!-- table header -->
+  <rect x="360" y="224" width="840" height="40" rx="8" fill="#EEF3FB"/>
+  <text x="380" y="249" fill="#475569" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Nr.</text>
+  <text x="500" y="249" fill="#475569" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Name</text>
+  <text x="860" y="249" fill="#475569" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">UoM</text>
+  <text x="980" y="249" fill="#475569" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Min.</text>
+  <text x="1088" y="249" fill="#475569" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Aktiv</text>
+
+  <!-- rows -->
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1E293B">
+    <rect x="360" y="272" width="840" height="48" fill="#F8FBFF"/>
+    <text x="380" y="302">A-10021</text>
+    <text x="500" y="302">Edelstahlschraube M6</text>
+    <text x="860" y="302">Stk</text>
+    <text x="980" y="302">50</text>
+    <text x="1088" y="302" fill="#16A34A">Ja</text>
+
+    <rect x="360" y="320" width="840" height="48" fill="#FFFFFF"/>
+    <text x="380" y="350">A-10044</text>
+    <text x="500" y="350">Karton 400×300×200</text>
+    <text x="860" y="350">Stk</text>
+    <text x="980" y="350">120</text>
+    <text x="1088" y="350" fill="#16A34A">Ja</text>
+
+    <rect x="360" y="368" width="840" height="48" fill="#F8FBFF"/>
+    <text x="380" y="398">A-10102</text>
+    <text x="500" y="398">Kabelbinder 200mm</text>
+    <text x="860" y="398">Stk</text>
+    <text x="980" y="398">500</text>
+    <text x="1088" y="398" fill="#16A34A">Ja</text>
+
+    <rect x="360" y="416" width="840" height="48" fill="#FFFFFF"/>
+    <text x="380" y="446">A-10188</text>
+    <text x="500" y="446">Lageretikett 50×30</text>
+    <text x="860" y="446">Rolle</text>
+    <text x="980" y="446">8</text>
+    <text x="1088" y="446" fill="#16A34A">Ja</text>
+
+    <rect x="360" y="464" width="840" height="48" fill="#F8FBFF"/>
+    <text x="380" y="494">A-10230</text>
+    <text x="500" y="494">Schutzhandschuhe L</text>
+    <text x="860" y="494">Paar</text>
+    <text x="980" y="494">24</text>
+    <text x="1088" y="494" fill="#94A3B8">Nein</text>
+  </g>
+
+  <rect x="360" y="640" width="200" height="72" rx="12" fill="#EEF3FB"/>
+  <text x="380" y="672" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="12">Module</text>
+  <text x="380" y="696" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">5 geladen</text>
+
+  <rect x="580" y="640" width="200" height="72" rx="12" fill="#EEF3FB"/>
+  <text x="600" y="672" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="12">Architektur</text>
+  <text x="600" y="696" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Prism WPF</text>
+
+  <rect x="800" y="640" width="200" height="72" rx="12" fill="#EEF3FB"/>
+  <text x="820" y="672" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="12">Daten</text>
+  <text x="820" y="696" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">EF Core</text>
+</svg>
